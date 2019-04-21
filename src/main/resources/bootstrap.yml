@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chenqinyang/config-repo
+          username:
+          password:
+          skipSslValidation: true
+          force-pull: true
+          timeout: 5
+
+
