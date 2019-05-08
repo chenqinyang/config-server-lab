@@ -4,7 +4,9 @@ spring:
       server:
         git:
           uri: https://github.com/chenqinyang/config-repo
-          searchPaths: '{application}/{profile}'
+#          searchPaths: '{profile}'
+#          searchPaths: group
+          searchPaths: '{application}'
 #          username:
 #          password:
           skipSslValidation: true
